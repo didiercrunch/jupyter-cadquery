@@ -28,10 +28,10 @@ setup_args = {
         "cad-viewer-widget~=1.4.0",
         "cachetools~=5.2.0",
     ],
-    "extras_require": {
-        "dev": {"jupyter-packaging", "cookiecutter", "twine", "bumpversion", "black", "pylint", "pyYaml"},
-        "prod": {"cadquery==master"},
-    },
+ #    "extras_require": {
+ #        "dev": {"jupyter-packaging", "cookiecutter", "twine", "bumpversion", "black", "pylint", "pyYaml"},
+ #       "prod": {"cadquery==master"},
+ #    },
     "packages": find_packages(),
     "scripts": ["jcv", "jcv.cmd"],
     "zip_safe": False,
